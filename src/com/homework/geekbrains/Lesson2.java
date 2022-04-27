@@ -4,7 +4,6 @@ public class Lesson2 {
    public static void main(String[] args) {
         positiveOrNegative(-3);
         printWordNTimes("Harry Potter", 5);
-
     }
     public static boolean isSumBetween10And20(int a, int b) {
         int sum = a + b;
@@ -21,7 +20,6 @@ public class Lesson2 {
         } else if (a < 0) {
             System.out.println("Negative number " + a);
         }
-
     }
     public static boolean isNegative(int a) {
         if (a < 0) {
@@ -32,7 +30,6 @@ public class Lesson2 {
     public static void printWordNTimes(String word, int times) {
         for (int i = 0; i < times; i++)
             System.out.println(word);
-
         }
     }
 
